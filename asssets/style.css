@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #025959;
+    font-family: 'Lobster', cursive;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+#cadastro{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+#cadastro h2{
+ margin-top: 30px;
+ font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 62px;
+}
+
+#cadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#cadastro p{
+    margin-bottom: 8px;
+    font-family: 'Leelawadee UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 33px;
+}
+
+#cadastro input {
+    height: 40px;
+    width: 80vw;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    outline-style: none;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+#cadastro button {
+    width: 80vw;
+    height: 40px;
+    border:2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#cadastro span {
+    margin-top: 70px;
+    font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 31px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
