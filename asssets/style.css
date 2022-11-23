@@ -88,26 +88,28 @@ line-height: 33px;
 }
 
 .cadastro input, .entrar input {
-    height: 40px;
+    height: 50px;
     width: 80vw;
     margin-bottom: 15px;
-    border-radius: 4px;
+    border-radius: 8px;
     outline-style: none;
     border: 2px solid #000;
     background-color: #fff;
+    padding: 0px 12px;
 }
 
 .cadastro button, .entrar button {
     width: 80vw;
-    height: 40px;
+    height: 50px;
     border:2px solid #fff;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #fff;
     font-size: 20px;
     margin-top: 15px;
+   
 }
 
-.cadastro span {
+.cadastro span,.entrar span {
     margin-top: 70px;
     font-family: 'Lobster';
 font-style: normal;
@@ -237,11 +239,14 @@ background-image: url(./Rectangle4.png);
 }
 .nav-barra-bottom ul{
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
     padding-top: 10px;
     
 }
+.nav-barra-bottom > ul >li{
+    display: block;
+    margin: 0 auto;
+} 
+
 .nav-barra-bottom ul li img{
     width: 20px;
 }
